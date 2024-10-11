@@ -1,0 +1,3631 @@
+[
+  {
+    "abbr": "TOCS",
+    "full": "Transactions on Computer Systems",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "TOS",
+    "full": "Transactions on Storage",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "TCAD",
+    "full": "Transactions on Computer-Aided Design of Integrated Circuits And System",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "TC",
+    "full": "Transactions on Computers",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "TPDS",
+    "full": "Transactions on Parallel and Distributed Systems",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "TACO",
+    "full": "Transactions on Architecture and Code Optimization",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TAAS",
+    "full": "Transactions on Autonomous and Adaptive Systems",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TODAES",
+    "full": "Transactions on Design Automation of Electronic Systems",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TECS",
+    "full": "Transactions on Embedded Computing Systems",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TRETS",
+    "full": "Transactions on Reconfigurable Technology and Systems",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TVLSI",
+    "full": "Transactions on Very Large Scale Integration (VLSI) Systems",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "JPDC",
+    "full": "Journal of Parallel and Distributed Computing",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "JSA",
+    "full": "Journal of Systems Architecture: Embedded Software Design",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "PARCO",
+    "full": "Parallel Computing",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "full": "Performance Evaluation: An International Journal",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "JETC",
+    "full": "Journal on Emerging Technologies in Computing Systems",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "full": "Concurrency and Computation: Practice and Experience",
+    "publisher": "Wiley",
+    "category": "C"
+  },
+  {
+    "abbr": "DC",
+    "full": "Distributed Computing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "FGCS",
+    "full": "Future Generation Computer Systems",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "TCC",
+    "full": "Transactions on Cloud Computing",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "Integration",
+    "full": "Integration, the VLSI Journal",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "JETTA",
+    "full": "Journal of Electronic Testing-Theory and Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "JGC",
+    "full": "Journal of Grid computing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "MICPRO",
+    "full": "Microprocessors and Microsystems: Embedded Hardware Design",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "RTS",
+    "full": "Real-Time Systems",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "TJSC",
+    "full": "The Journal of Supercomputing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "PPoPP",
+    "full": "SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "FAST",
+    "full": "Conference on File and Storage Technologies",
+    "publisher": "USENIX",
+    "category": "A"
+  },
+  {
+    "abbr": "DAC",
+    "full": "Design Automation Conference",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "HPCA",
+    "full": "High Performance Computer Architecture",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "MICRO",
+    "full": "International Symposium on Microarchitecture",
+    "publisher": "IEEE/ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "SC",
+    "full": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "ASPLOS",
+    "full": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "ISCA",
+    "full": "International Symposium on Computer Architecture",
+    "publisher": "ACM /IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "USENIX ATC",
+    "full": "USENIX Annul Technical Conference",
+    "publisher": "USENIX",
+    "category": "A"
+  },
+  {
+    "abbr": "SoCC",
+    "full": "Symposium on Cloud Computing",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "SPAA",
+    "full": "Symposium on Parallelism in Algorithms and Architectures",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "PODC",
+    "full": "Symposium on Principles of Distributed Computing",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "FPGA",
+    "full": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "CGO",
+    "full": "Code Generation and Optimization",
+    "publisher": "IEEE/ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "DATE",
+    "full": "Design, Automation & Test in Europe",
+    "publisher": "IEEE/ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "EuroSys",
+    "full": "European Conference on Computer Systems",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "HOT CHIPS",
+    "full": "Hot Chips: A Symposium on High Performance Chips",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "CLUSTER",
+    "full": "International Conference on Cluster Computing",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ICCD",
+    "full": "International Conference on Computer Design",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ICCAD",
+    "full": "International Conference on Computer-Aided Design",
+    "publisher": "IEEE/ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "ICDCS",
+    "full": "International Conference on Distributed Computing Systems",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "CODES+ISSS",
+    "full": "International Conference on Hardware/Software Co-design and System Synthesis",
+    "publisher": "ACM/ IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "HiPEAC",
+    "full": "International Conference on High Performance and Embedded Architectures and Compilers",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "SIGMETRICS",
+    "full": "International Conference on Measurement and Modeling of Computer Systems",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "PACT",
+    "full": "International Conference on Parallel Architectures and Compilation Techniques",
+    "publisher": "IEEE/ACM",
+    "category": "B"
+  },
+  {
+    "full": "ICPP",
+    "publisher": "International Conference on Parallel Processing",
+    "category": "B"
+  },
+  {
+    "abbr": "ICS",
+    "full": "International Conference on Supercomputing",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "VEE",
+    "full": "International Conference on Virtual Execution Environments",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "IPDPS",
+    "full": "International Parallel & Distributed Processing Symposium",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "Performance",
+    "full": "International Symposium on Computer Performance Modeling, Measurements and Evaluation",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "HPDC",
+    "full": "International Symposium on High Performance Distributed Computing",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ITC",
+    "full": "International Test Conference",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "LISA",
+    "full": "Large Installation System Administration Conference",
+    "publisher": "USENIX",
+    "category": "B"
+  },
+  {
+    "abbr": "MSST",
+    "full": "Mass Storage Systems and Technologies",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "RTAS",
+    "full": "Real-Time and Embedded Technology and Applications Symposium",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "CF",
+    "full": "International Conference on Computing Frontiers",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "SYSTOR",
+    "full": "International Systems and Storage Conference",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "NOCS",
+    "full": "ACM/IEEE International Symposium on Networks-on-Chip",
+    "publisher": "ACM/IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ASAP",
+    "full": "Application-Specific Systems, Architectures, and Processors",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ASP-DAC",
+    "full": "Asia and South Pacific Design Automation Conference",
+    "publisher": "ACM/IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "Euro-Par",
+    "full": "European Conference on Parallel and Distributed Computing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ETS",
+    "full": "European Test Symposium",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "FPL",
+    "full": "Field Programmable Logic and Applications",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "FCCM",
+    "full": "Field-Programmable Custom Computing Machines",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "GLSVLSI",
+    "full": "Great Lakes Symposium on VLSI",
+    "publisher": "ACM/IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ATS",
+    "full": "Asian Test Symposium",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "HPCC",
+    "full": "International Conference on High Performance Computing and Communications",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "HiPC",
+    "full": "International Conference on High Performance Computing, Data and Analytics",
+    "publisher": "IEEE/ ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "MASCOTS",
+    "full": "International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ISPA",
+    "full": "International Symposium on Parallel and Distributed Processing with Applications",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "CCGRID",
+    "full": "International Symposium on Cluster, Cloud and Grid Computing",
+    "publisher": "ACM/IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "NPC",
+    "full": "IFIP International Conference on Network and Parallel Computing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ICA3PP",
+    "full": "International Conference on Algorithms and Architectures for Parallel Processing",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "CASES",
+    "full": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "FPT",
+    "full": "International Conference on Field-Programmable Technology",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICPADS",
+    "full": "International Conference on Parallel and Distributed Systems",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ISCAS",
+    "full": "International Symposium on Circuits and Systems",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ISLPED",
+    "full": "International Symposium on Low Power Electronics and Design",
+    "publisher": "ACM/IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ISPD",
+    "full": "International Symposium on Physical Design",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "HotI",
+    "full": "Symposium on High-Performance Interconnects",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "VTS",
+    "full": "VLSI Test Symposium",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "JSAC",
+    "full": "Journal of Selected Areas in Communications",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "TMC",
+    "full": "Transactions on Mobile Computing",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "TON",
+    "full": "Transactions on Networking",
+    "publisher": "IEEE/ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "TOIT",
+    "full": "Transactions on Internet Technology",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TOMCCAP",
+    "full": "Transactions on Multimedia Computing, Communications and Applications",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TOSN",
+    "full": "Transactions on Sensor Networks",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "CN",
+    "full": "Computer Networks",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "TCOM",
+    "full": "Transactions on Communications",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TWC",
+    "full": "Transactions on Wireless Communications",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "full": "Ad Hoc Networks",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "CC",
+    "full": "Computer Communications",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "TNSM",
+    "full": "Transactions on Network and Service Management",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "full": "IET Communications",
+    "publisher": "IET",
+    "category": "C"
+  },
+  {
+    "abbr": "JNCA",
+    "full": "Journal of Network and Computer Applications",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "MONET",
+    "full": "Mobile Networks & Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "full": "Networks",
+    "publisher": "Wiley",
+    "category": "C"
+  },
+  {
+    "abbr": "PPNA",
+    "full": "Peer-to-Peer Networking and Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "WCMC",
+    "full": "Wireless Communications & Mobile Computing",
+    "publisher": "Wiley.",
+    "category": "C"
+  },
+  {
+    "full": "Wireless Networks",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SIGCOMM",
+    "full": "International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "MobiCom",
+    "full": "International Conference on Mobile Computing and Networking",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "INFOCOM",
+    "full": "International Conference on Computer Communications",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "NSDI",
+    "full": "Symposium on Network System Design and Implementation",
+    "publisher": "USENIX",
+    "category": "A"
+  },
+  {
+    "abbr": "SenSys",
+    "full": "Conference on Embedded Networked Sensor Systems",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "CoNEXT",
+    "full": "International Conference on Emerging Networking Experiments and Technologies",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "SECON",
+    "full": "Communications Society Conference on Sensor and Ad Hoc Communications and Networks",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "IPSN",
+    "full": "International Conference on Information Processing in Sensor Networks",
+    "publisher": "IEEE/ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "MobiSys",
+    "full": "International Conference on Mobile Systems, Applications, and Services",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "ICNP",
+    "full": "International Conference on Network Protocols",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "MobiHoc",
+    "full": "International Symposium on Mobile Ad Hoc Networking and Computing",
+    "publisher": "ACM/IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "NOSSDAV",
+    "full": "International Workshop on Network and Operating System Support for Digital Audio and Video",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "IWQoS",
+    "full": "International Workshop on Quality of Service",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "IMC",
+    "full": "Internet Measurement Conference",
+    "publisher": "ACM/USENIX",
+    "category": "B"
+  },
+  {
+    "abbr": "ANCS",
+    "full": "Architectures for Networking and Communications Systems",
+    "publisher": "ACM/IEE E",
+    "category": "C"
+  },
+  {
+    "abbr": "APNOMS",
+    "full": "Asia-Pacific Network Operations and Management Symposium",
+    "publisher": "IFIP/IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "FORTE",
+    "full": "Formal Techniques for Networked and Distributed Systems",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "LCN",
+    "full": "Conference on Local Computer Networks",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "GLOBECO M",
+    "full": "Global Communications Conference",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICC",
+    "full": "International Conference on Communications",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICCCN",
+    "full": "International Conference on Computer Communications and Networks",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "MASS",
+    "full": "International Conference on Mobile Ad-hoc and Sensor Systems",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "P2P",
+    "full": "International Conference on Peer-to-Peer Computing",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "IPCCC",
+    "full": "International Performance Computing and Communications Conference",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "WoWMoM",
+    "full": "International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ISCC",
+    "full": "Symposium on Computers and Communications",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "WCNC",
+    "full": "Wireless Communications & Networking Conference",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "Networking",
+    "full": "IFIP International Conferences on Networking",
+    "publisher": "IFIP",
+    "category": "C"
+  },
+  {
+    "abbr": "IM",
+    "full": "IFIP/IEEE International Symposium on Integrated Network Management",
+    "publisher": "IFIP/IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "MSN",
+    "full": "International Conference on Mobile Ad-hoc and Sensor Networks",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "MSWiM",
+    "full": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "WASA",
+    "full": "International Conference on Wireless Algorithms, Systems, and Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "HotNets",
+    "full": "The Workshop on Hot Topics in Networks",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "TDSC",
+    "full": "Transactions on Dependable and Secure Computing",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "TIFS",
+    "full": "Transactions on Information Forensics and Security",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "full": "Journal of Cryptology",
+    "publisher": "Springer",
+    "category": "A"
+  },
+  {
+    "abbr": "TOPS",
+    "full": "Transactions on Privacy and Security",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "full": "Computers & Security",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "full": "Designs, Codes and Cryptography",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "JCS",
+    "full": "Journal of Computer Security",
+    "publisher": "IOS Press",
+    "category": "B"
+  },
+  {
+    "abbr": "CLSR",
+    "full": "Computer Law and Security Review",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "full": "EURASIP Journal on Information Security",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "full": "IET Information Security",
+    "publisher": "IET",
+    "category": "C"
+  },
+  {
+    "abbr": "IMCS",
+    "full": "Information Management & Computer Security",
+    "publisher": "Emerald",
+    "category": "C"
+  },
+  {
+    "abbr": "IJICS",
+    "full": "International Journal of Information and Computer Security",
+    "publisher": "Inderscience",
+    "category": "C"
+  },
+  {
+    "abbr": "IJISP",
+    "full": "International Journal of Information Security and Privacy",
+    "publisher": "Idea Group Inc",
+    "category": "C"
+  },
+  {
+    "abbr": "JISA",
+    "full": "Journal of Information Security and Application",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "SCN",
+    "full": "Security and Communication Networks",
+    "publisher": "Wiley",
+    "category": "C"
+  },
+  {
+    "abbr": "CCS",
+    "full": "Conference on Computer and Communications Security",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "EUROCRYPT",
+    "full": "European Cryptology Conference",
+    "publisher": "Springer",
+    "category": "A"
+  },
+  {
+    "abbr": "S&P",
+    "full": "Symposium on Security and Privacy",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "CRYPTO",
+    "full": "International Cryptology Conference",
+    "publisher": "Springer",
+    "category": "A"
+  },
+  {
+    "abbr": "USENIX Security",
+    "full": "Usenix Security Symposium",
+    "publisher": "USENIX Association",
+    "category": "A"
+  },
+  {
+    "abbr": "ACSAC",
+    "full": "Computer Security Applications Conference",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ASIACRYPT",
+    "full": "International Conference on the Theory and Application of Cryptology and Information Security",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ESORICS",
+    "full": "European Symposium on Research in Computer Security",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "FSE",
+    "full": "Fast Software Encryption",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "CSFW",
+    "full": "Computer Security Foundations Workshop",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "SRDS",
+    "full": "International Symposium on Reliable Distributed Systems",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "CHES",
+    "full": "International Conference on Cryptographic Hardware and Embedded Systems",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "DSN",
+    "full": "International Conference on Dependable Systems and Networks",
+    "publisher": "IEEE/IFIP",
+    "category": "B"
+  },
+  {
+    "abbr": "RAID",
+    "full": "International Symposium on Recent Advances in Intrusion Detection",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "PKC",
+    "full": "International Workshop on Practice and Theory in Public Key Cryptography",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "NDSS",
+    "full": "ISOC Network and Distributed System Security Symposium",
+    "publisher": "ISOC",
+    "category": "B"
+  },
+  {
+    "abbr": "TCC",
+    "full": "Theory of Cryptography Conference",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "WiSec",
+    "full": "Conference on Security and Privacy in Wireless and Mobile Networks",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "SACMAT",
+    "full": "Symposium on Access Control Models and Technologies",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "DRM",
+    "full": "Workshop on Digital Rights Management",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "IH&MMSec",
+    "full": "Workshop on Information Hiding and Multimedia Security",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "ACNS",
+    "full": "Applied Cryptography and Network Security",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "AsiaCCS",
+    "full": "Asia Conference on Computer and Communications Security",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "ACISP",
+    "full": "Australasia Conference on Information Security and Privacy",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "CT-RSA",
+    "full": "Cryptographer's Track at RSA Conference",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "full": "DIMVA",
+    "publisher": "Detection of Intrusions and Malware & Vulnerability Assessment",
+    "category": "C"
+  },
+  {
+    "abbr": "DFRWS",
+    "full": "Digital Forensic Research Workshop",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "FC",
+    "full": "Financial Cryptography and Data Security",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "TrustCom",
+    "full": "International Conference on Trust, Security and Privacy in Computing and Communications",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "SEC",
+    "full": "IFIP International Information Security Conference",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "IFIP WG 11.9",
+    "full": "IFIP WG 11.9 International Conference on Digital Forensics",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ISC",
+    "full": "Information Security Conference",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ICDF2C",
+    "full": "International Conference on Digital Forensics & Cyber Crime",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ICICS",
+    "full": "International Conference on Information and Communications Security",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SecureComm",
+    "full": "International Conference on Security and Privacy in Communication Networks",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "NSPW",
+    "full": "New Security Paradigms Workshop",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "PAM",
+    "full": "Passive and Active Measurement Conference",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "PETS",
+    "full": "Privacy Enhancing Technologies Symposium",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SAC",
+    "full": "Selected Areas in Cryptography",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SOUPS",
+    "full": "Symposium On Usable Privacy and Security",
+    "publisher": "USENIX",
+    "category": "C"
+  },
+  {
+    "abbr": "HotSec",
+    "full": "USENIX Workshop on Hot Topics in Security",
+    "publisher": "USENIX",
+    "category": "C"
+  },
+  {
+    "abbr": "TOPLAS",
+    "full": "Transactions on Programming Languages & Systems",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "TOSEM",
+    "full": "Transactions on Software Engineering and Methodology",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "TSE",
+    "full": "Transactions on Software Engineering",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "ASE",
+    "full": "Automated Software Engineering",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ESE",
+    "full": "Empirical Software Engineering",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "TSC",
+    "full": "Transactions on Service Computing",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "IETS",
+    "full": "IET Software",
+    "publisher": "IET",
+    "category": "B"
+  },
+  {
+    "abbr": "IST",
+    "full": "Information and Software Technology",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "JFP",
+    "full": "Journal of Functional Programming",
+    "publisher": "Cambridge University Press",
+    "category": "B"
+  },
+  {
+    "full": "Journal of Software: Evolution and Process",
+    "publisher": "Wiley",
+    "category": "B"
+  },
+  {
+    "abbr": "JSS",
+    "full": "Journal of Systems and Software",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "RE",
+    "full": "Requirements Engineering",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "SCP",
+    "full": "Science of Computer Programming",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "SoSyM",
+    "full": "Software and System Modeling",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "STVR",
+    "full": "Software Testing, Verification and Reliability",
+    "publisher": "Wiley",
+    "category": "B"
+  },
+  {
+    "abbr": "SPE",
+    "full": "Software: Practice and Experience",
+    "publisher": "Wiley",
+    "category": "B"
+  },
+  {
+    "abbr": "CL",
+    "full": "Computer Languages, Systems and Structures",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "IJSEKE",
+    "full": "International Journal on Software Engineering and Knowledge Engineering",
+    "publisher": "World Scientific",
+    "category": "C"
+  },
+  {
+    "abbr": "STTT",
+    "full": "International Journal on Software Tools for Technology Transfer",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "JLAP",
+    "full": "Journal of Logic and Algebraic Programming",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "JWE",
+    "full": "Journal of Web Engineering",
+    "publisher": "Rinton Press",
+    "category": "C"
+  },
+  {
+    "abbr": "SOCA",
+    "full": "Service Oriented Computing and Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SQJ",
+    "full": "Software Quality Journal",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "TPLP",
+    "full": "Theory and Practice of Logic Programming",
+    "publisher": "Cambridge University Press",
+    "category": "C"
+  },
+  {
+    "abbr": "PLDI",
+    "full": "SIGPLAN Conference on Programming Language Design & Implementation",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "POPL",
+    "full": "SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "FSE/ESEC",
+    "full": "SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "SOSP",
+    "full": "Symposium on Operating Systems Principles",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "OOPSLA",
+    "full": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "ASE",
+    "full": "International Conference on Automated Software Engineering",
+    "publisher": "IEEE/ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "ICSE",
+    "full": "International Conference on Software Engineering",
+    "publisher": "ACM/IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "ISSTA",
+    "full": "International Symposium on Software Testing and Analysis",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "OSDI",
+    "full": "USENIX Symposium on Operating Systems Design and Implementations",
+    "publisher": "USENIX",
+    "category": "A"
+  },
+  {
+    "abbr": "ECOOP",
+    "full": "European Conference on Object-Oriented Programming",
+    "publisher": "AITO",
+    "category": "B"
+  },
+  {
+    "abbr": "ETAPS",
+    "full": "European Joint Conferences on Theory and Practice of Software",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ICPC",
+    "full": "International Conference on Program Comprehension",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "RE",
+    "full": "International Requirements Engineering Conference",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "CAiSE",
+    "full": "International Conference on Advanced Information Systems Engineering",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ICFP",
+    "full": "International Conference on Function Programming",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "LCTES",
+    "full": "International Conference on Languages, Compilers and Tools for Embedded Systems",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "MoDELS",
+    "full": "International Conference on Model Driven Engineering Languages and Systems",
+    "publisher": "ACM, IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "CP",
+    "full": "International Conference on Principles and Practice of Constraint Programming",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ICSOC",
+    "full": "International Conference on Service Oriented Computing",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "SANER",
+    "full": "International Conference on Software Analysis, Evolution, and Reengineering",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ICSME",
+    "full": "International Conference on Software Maintenance and Evolution",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "VMCAI",
+    "full": "International Conference on Verification, Model Checking, and Abstract Interpretation",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ICWS",
+    "full": "International Conference on Web Services \uff08Research Track\uff09",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "Middleware",
+    "full": "International Middleware Conference",
+    "publisher": "ACM/IFIP/ USENIX",
+    "category": "B"
+  },
+  {
+    "abbr": "SAS",
+    "full": "International Static Analysis Symposium",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ESEM",
+    "full": "International Symposium on Empirical Software Engineering and Measurement",
+    "publisher": "ACM/IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "FM",
+    "full": "International Symposium on Formal Methods",
+    "publisher": "FME",
+    "category": "B"
+  },
+  {
+    "abbr": "ISSRE",
+    "full": "International Symposium on Software Reliability Engineering",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "HotOS",
+    "full": "USENIX Workshop on Hot Topics in Operating Systems",
+    "publisher": "USENIX",
+    "category": "B"
+  },
+  {
+    "abbr": "PEPM",
+    "full": "SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "PASTE",
+    "full": "ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "APLAS",
+    "full": "Asian Symposium on Programming Languages and Systems",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "APSEC",
+    "full": "Asia-Pacific Software Engineering Conference",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "EASE",
+    "full": "Evaluation and Assessment in Software Engineering",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "ICECCS",
+    "full": "International Conference on Engineering of Complex Computer Systems",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICST",
+    "full": "International Conference on Software Testing, Verification and Validation",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ISPASS",
+    "full": "International Symposium on Performance Analysis of Systems and Software",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "SCAM",
+    "full": "International Working Conference on Source Code Analysis and Manipulation",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "COMPSAC",
+    "full": "International Computer Software and Applications Conference",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICFEM",
+    "full": "International Conference on Formal Engineering Methods",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "TOOLS",
+    "full": "International Conference on Objects, Models, Components, Patterns",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SCC",
+    "full": "International Conference on Service Computing",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICSSP",
+    "full": "International Conference on Software and System Process",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "SEKE",
+    "full": "International Conference on Software Engineering and Knowledge Engineering",
+    "publisher": "KSI",
+    "category": "C"
+  },
+  {
+    "abbr": "QRS",
+    "full": "International Conference on Software Quality, Reliability and Security",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICSR",
+    "full": "International Conference on Software Reuse",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ICWE",
+    "full": "International Conference on Web Engineering",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SPIN",
+    "full": "International SPIN Workshop on Model Checking Software",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ATVA",
+    "full": "International Symposium on Automated Technology for Verification and Analysis",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "LOPSTR",
+    "full": "International Symposium on Logic-based Program Synthesis and Transformation",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "TASE",
+    "full": "International Symposium on Theoretical Aspects of Software Engineering",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "MSR",
+    "full": "Mining Software Repositories",
+    "publisher": "IEEE/ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "REFSQ",
+    "full": "Requirements Engineering: Foundation for Software Quality",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "WICSA",
+    "full": "Working IEEE/IFIP Conference on Software Architecture",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "TODS",
+    "full": "Transactions on Database Systems",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "TOIS",
+    "full": "Transactions on Information Systems",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "TKDE",
+    "full": "Transactions on Knowledge and Data Engineering",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "VLDBJ",
+    "full": "The VLDB Journal",
+    "publisher": "Springer",
+    "category": "A"
+  },
+  {
+    "abbr": "TKDD",
+    "full": "Transactions on Knowledge Discovery from Data",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TWEB",
+    "full": "Transactions on the Web",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "AEI",
+    "full": "Advanced Engineering Informatics",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "DKE",
+    "full": "Data and Knowledge Engineering",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "DMKD",
+    "full": "Data Mining and Knowledge Discovery",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "EJIS",
+    "full": "European Journal of Information Systems",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "full": "GeoInformatica",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "IPM",
+    "full": "Information Processing and Management",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "full": "Information Sciences",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "IS",
+    "full": "Information Systems",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "JASIST",
+    "full": "Journal of the American Society for Information Science and Technology",
+    "publisher": "American Society for Information Science and Technology",
+    "category": "B"
+  },
+  {
+    "abbr": "JWS",
+    "full": "Journal of Web Semantics",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "KAIS",
+    "full": "Knowledge and Information Systems",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "DPD",
+    "full": "Distributed and Parallel Databases",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "I&M",
+    "full": "Information and Management",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "IPL",
+    "full": "Information Processing Letters",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "IR",
+    "full": "Information Retrieval Journal",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "IJCIS",
+    "full": "International Journal of Cooperative Information Systems",
+    "publisher": "World Scientific",
+    "category": "C"
+  },
+  {
+    "abbr": "IJGIS",
+    "full": "International Journal of Geographical Information Science",
+    "publisher": "Taylor & Francis",
+    "category": "C"
+  },
+  {
+    "abbr": "IJIS",
+    "full": "International Journal of Intelligent Systems",
+    "publisher": "Wiley",
+    "category": "C"
+  },
+  {
+    "abbr": "IJKM",
+    "full": "International Journal of Knowledge Management",
+    "publisher": "IGI",
+    "category": "C"
+  },
+  {
+    "abbr": "IJSWIS",
+    "full": "International Journal on Semantic Web and Information Systems",
+    "publisher": "IGI",
+    "category": "C"
+  },
+  {
+    "abbr": "JCIS",
+    "full": "Journal of Computer Information Systems",
+    "publisher": "IACIS",
+    "category": "C"
+  },
+  {
+    "abbr": "JDM",
+    "full": "Journal of Database Management",
+    "publisher": "IGI-Global",
+    "category": "C"
+  },
+  {
+    "abbr": "JGITM",
+    "full": "Journal of Global Information Technology Management",
+    "publisher": "Ivy League Publishing",
+    "category": "C"
+  },
+  {
+    "abbr": "JIIS",
+    "full": "Journal of Intelligent Information Systems",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "JSIS",
+    "full": "Journal of Strategic Information Systems",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "SIGMOD",
+    "full": "Conference on Management of Data",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "KDD",
+    "full": "Knowledge Discovery and Data Mining",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "ICDE",
+    "full": "International Conference on Data Engineering",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "SIGIR",
+    "full": "International Conference on Research on Development in Information Retrieval",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "VLDB",
+    "full": "International Conference on Very Large Data Bases",
+    "publisher": "Morgan Kaufmann/ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "CIKM",
+    "full": "International Conference on Information and Knowledge Management",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "WSDM",
+    "full": "International Conference on Web Search and Data Mining",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "PODS",
+    "full": "Symposium on Principles of Database Systems",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "DASFAA",
+    "full": "Database Systems for Advanced Applications",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ECML-PKDD",
+    "full": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ISWC",
+    "full": "International Semantic Web Conference",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ICDM",
+    "full": "International Conference on Data Mining",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ICDT",
+    "full": "International Conference on Database Theory",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "EDBT",
+    "full": "International Conference on Extending DB Technology",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "CIDR",
+    "full": "International Conference on Innovative Data Systems Research",
+    "publisher": "Online Proceeding",
+    "category": "B"
+  },
+  {
+    "abbr": "SDM",
+    "full": "SIAM International Conference on Data Mining",
+    "publisher": "SIAM",
+    "category": "B"
+  },
+  {
+    "abbr": "APWeb",
+    "full": "Asia Pacific Web Conference",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "DEXA",
+    "full": "Database and Expert System Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ECIR",
+    "full": "European Conference on IR Research",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ESWC",
+    "full": "Extended Semantic Web Conference",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "WebDB",
+    "full": "International ACM Workshop on Web and Databases",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "ER",
+    "full": "International Conference on Conceptual Modeling",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "MDM",
+    "full": "International Conference on Mobile Data Management",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "SSDBM",
+    "full": "International Conference on Scientific and Statistical DB Management",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "WAIM",
+    "full": "International Conference on Web Age Information Management",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SSTD",
+    "full": "International Symposium on Spatial and Temporal Databases",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "PAKDD",
+    "full": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "WISE",
+    "full": "Web Information Systems Engineering",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "TIT",
+    "full": "Transactions on Information Theory",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "IANDC",
+    "full": "Information and Computation",
+    "publisher": "Elsevier",
+    "category": "A"
+  },
+  {
+    "abbr": "SICOMP",
+    "full": "SIAM Journal on Computing",
+    "publisher": "SIAM",
+    "category": "A"
+  },
+  {
+    "abbr": "TALG",
+    "full": "Transactions on Algorithms",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TOCL",
+    "full": "Transactions on Computational Logic",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TOMS",
+    "full": "Transactions on Mathematical Software",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "Algorithmica",
+    "full": "Algorithmica",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "CC",
+    "full": "Computational Complexity",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "FAC",
+    "full": "Formal Aspects of Computing",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "FMSD",
+    "full": "Formal Methods in System Design",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "INFORMS",
+    "full": "INFORMS Journal on Computing",
+    "publisher": "INFORMS",
+    "category": "B"
+  },
+  {
+    "abbr": "JCSS",
+    "full": "Journal of Computer and System Sciences",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "JGO",
+    "full": "Journal of Global Optimization",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "JSC",
+    "full": "Journal of Symbolic Computation",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "MSCS",
+    "full": "Mathematical Structures in Computer Science",
+    "publisher": "Cambridge University Press",
+    "category": "B"
+  },
+  {
+    "abbr": "TCS",
+    "full": "Theoretical Computer Science",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "ACTA",
+    "full": "Acta Informatica",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "APAL",
+    "full": "Annals of Pure and Applied Logic",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "DAM",
+    "full": "Discrete Applied Mathematics",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "FUIN",
+    "full": "Fundamenta Informaticae",
+    "publisher": "IOS Press",
+    "category": "C"
+  },
+  {
+    "abbr": "LISP",
+    "full": "Higher-Order and Symbolic Computation",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "IPL",
+    "full": "Information Processing Letters",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "JCOMPLEXITY",
+    "full": "Journal of Complexity",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "LOGCOM",
+    "full": "Journal of Logic and Computation",
+    "publisher": "Oxford University Press",
+    "category": "C"
+  },
+  {
+    "abbr": "JSL",
+    "full": "Journal of Symbolic Logic",
+    "publisher": "Association for Symbolic Logic",
+    "category": "C"
+  },
+  {
+    "abbr": "LMCS",
+    "full": "Logical Methods in Computer Science",
+    "publisher": "LMCS",
+    "category": "C"
+  },
+  {
+    "abbr": "SIDMA",
+    "full": "SIAM Journal on Discrete Mathematics",
+    "publisher": "SIAM",
+    "category": "C"
+  },
+  {
+    "full": "Theory of Computing Systems",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "STOC",
+    "full": "Symposium on the Theory of Computing",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "SODA",
+    "full": "ACM-SIAM Symposium on Discrete Algorithms",
+    "publisher": "SIAM",
+    "category": "A"
+  },
+  {
+    "abbr": "CAV",
+    "full": "Computer Aided Verification",
+    "publisher": "Springer",
+    "category": "A"
+  },
+  {
+    "abbr": "FOCS",
+    "full": "Symposium on Foundations of Computer Science",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "LICS",
+    "full": "Symposium on Logic in Computer Science",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "SoCG",
+    "full": "Symposium on Computational Geometry",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "ESA",
+    "full": "European Symposium on Algorithms",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "CCC",
+    "full": "Conference on Computational Complexity",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ICALP",
+    "full": "International Colloquium on Automata, Languages and Programming",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "CADE/IJCAR",
+    "full": "International Conference on Automated Deduction/International Joint Conference on Automated Reasoning",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "CONCUR",
+    "full": "International Conference on Concurrency Theory",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "HSCC",
+    "full": "International Conference on Hybrid Systems: Computation and Control",
+    "publisher": "Springer and ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "SAT",
+    "full": "Theory and Applications of Satisfiability Testing",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "CSL",
+    "full": "Computer Science Logic",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "FMCAD",
+    "full": "Formal Methods in Computer-Aided Design",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "FSTTCS",
+    "full": "Foundations of Software Technology and Theoretical Computer Science",
+    "publisher": "Indian Association for Research in Computing Science",
+    "category": "C"
+  },
+  {
+    "abbr": "DSAA",
+    "full": "International Conference on Data Science and Advanced Analytics",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICTAC",
+    "full": "International Colloquium on Theoretical Aspects of Computing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "IPCO",
+    "full": "International Conference on Integer Programming and Combinatorial Optimization",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "RTA",
+    "full": "International Conference on Rewriting Techniques and Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ISAAC",
+    "full": "International Symposium on Algorithms and Computation",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "MFCS",
+    "full": "Mathematical Foundations of Computer Science",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "STACS",
+    "full": "Symposium on Theoretical Aspects of Computer Science",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "TOG",
+    "full": "Transactions on Graphics",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "TIP",
+    "full": "Transactions on Image Processing",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "TVCG",
+    "full": "Transactions on Visualization and Computer Graphics",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "TOMCCAP",
+    "full": "Transactions on Multimedia Computing, Communications and Application",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "CAGD",
+    "full": "Computer Aided Geometric Design",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "CGF",
+    "full": "Computer Graphics Forum",
+    "publisher": "Wiley",
+    "category": "B"
+  },
+  {
+    "abbr": "CAD",
+    "full": "Computer-Aided Design",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "GM",
+    "full": "Graphical Models",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "TCSVT",
+    "full": "Transactions on Circuits and Systems for Video Technology",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TMM",
+    "full": "Transactions on Multimedia",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "JASA",
+    "full": "Journal of The Acoustical Society of America",
+    "publisher": "AIP",
+    "category": "B"
+  },
+  {
+    "abbr": "SIIMS",
+    "full": "SIAM Journal on Imaging Sciences",
+    "publisher": "SIAM",
+    "category": "B"
+  },
+  {
+    "abbr": "Speech Com",
+    "full": "Speech Communication",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "CGTA",
+    "full": "Computational Geometry: Theory and Applications",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "CAVW",
+    "full": "Computer Animation and Virtual Worlds",
+    "publisher": "Wiley",
+    "category": "C"
+  },
+  {
+    "abbr": "C&G",
+    "full": "Computers & Graphics",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "DCG",
+    "full": "Discrete & Computational Geometry",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SPL",
+    "full": "Signal Processing Letters",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "IET-IPR",
+    "full": "IET Image Processing",
+    "publisher": "IET",
+    "category": "C"
+  },
+  {
+    "abbr": "JVCIR",
+    "full": "Journal of Visual Communication and Image Representation",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "MS",
+    "full": "Multimedia Systems",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "MTA",
+    "full": "Multimedia Tools and Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "full": "Signal Processing",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "SPIC",
+    "full": "Signal Processing: Image Communication",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "TVC",
+    "full": "The Visual Computer",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ACM MM",
+    "full": "International Conference on Multimedia",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "SIGGRAPH",
+    "full": "SIGGRAPH Annual Conference",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "VR",
+    "full": "Virtual Reality",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "IEEE VIS",
+    "full": "Visualization Conference",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "ICMR",
+    "full": "SIGMM International Conference on Multimedia Retrieval",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "SI3D",
+    "full": "Symposium on Interactive 3D Graphics",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "SCA",
+    "full": "ACM/Eurographics Symposium on Computer Animation",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "DCC",
+    "full": "Data Compression Conference",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "EG",
+    "full": "Eurographics",
+    "publisher": "Wiley/ Blackwell",
+    "category": "B"
+  },
+  {
+    "abbr": "EuroVis",
+    "full": "Eurographics Conference on Visualization",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "SGP",
+    "full": "Eurographics Symposium on Geometry Processing",
+    "publisher": "Wiley/Blackwell",
+    "category": "B"
+  },
+  {
+    "abbr": "EGSR",
+    "full": "Eurographics Symposium on Rendering",
+    "publisher": "Wiley/Blackwell",
+    "category": "B"
+  },
+  {
+    "abbr": "ICASSP",
+    "full": "International Conference on Acoustics, Speech and SP",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ICME",
+    "full": "International Conference on Multimedia & Expo",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ISMAR",
+    "full": "International Symposium on Mixed and Augmented Reality",
+    "publisher": "IEEE/ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "PG",
+    "full": "Pacific Graphics: The Pacific Conference on Computer Graphics and Applications",
+    "publisher": "Wiley/Blackwell",
+    "category": "B"
+  },
+  {
+    "abbr": "SPM",
+    "full": "Symposium on Solid and Physical Modeling",
+    "publisher": "SMA/Elsevier",
+    "category": "B"
+  },
+  {
+    "full": "Symposium on Virtual Reality Software and Technology",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "CASA",
+    "full": "Computer Animation and Social Agents",
+    "publisher": "Wiley",
+    "category": "C"
+  },
+  {
+    "abbr": "CGI",
+    "full": "Computer Graphics International",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "full": "INTERSPEECH",
+    "publisher": "Conference of the International Speech Communication Association",
+    "category": "C"
+  },
+  {
+    "abbr": "GMP",
+    "full": "Geometric Modeling and Processing",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "PacificVis",
+    "full": "Pacific Visualization Symposium",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "3DV",
+    "full": "International Conference on 3D Vision",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "CAD/Graphics",
+    "full": "International Conference on Computer-Aided Design and Computer Graphics",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICIP",
+    "full": "International Conference on Image Processing",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "MMM",
+    "full": "International Conference on Multimedia Modeling",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "PCM",
+    "full": "Pacific-Rim Conference on Multimedia",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "SMI",
+    "full": "Shape Modeling International",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "AI",
+    "full": "Artificial Intelligence",
+    "publisher": "Elsevier",
+    "category": "A"
+  },
+  {
+    "abbr": "TPAMI",
+    "full": "Trans on Pattern Analysis and Machine Intelligence",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "IJCV",
+    "full": "International Journal of Computer Vision",
+    "publisher": "Springer",
+    "category": "A"
+  },
+  {
+    "abbr": "JMLR",
+    "full": "Journal of Machine Learning Research",
+    "publisher": "MIT Press",
+    "category": "A"
+  },
+  {
+    "abbr": "TAP",
+    "full": "Transactions on Applied Perception",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "TSLP",
+    "full": "Transactions on Speech and Language Processing",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "AAMAS",
+    "full": "Autonomous Agents and Multi-Agent Systems",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "full": "Computational Linguistics",
+    "publisher": "MIT Press",
+    "category": "B"
+  },
+  {
+    "abbr": "CVIU",
+    "full": "Computer Vision and Image Understanding",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "DKE",
+    "full": "Data and Knowledge Engineering",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "full": "Evolutionary Computation",
+    "publisher": "MIT Press",
+    "category": "B"
+  },
+  {
+    "abbr": "TAC",
+    "full": "Transactions on Affective Computing",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TASLP",
+    "full": "Transactions on Audio, Speech, and Language Processing",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "full": "Transactions on Cybernetics",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TEC",
+    "full": "Transactions on Evolutionary Computation",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TFS",
+    "full": "Transactions on Fuzzy Systems",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TNNLS",
+    "full": "Transactions on Neural Networks and learning systems",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "IJAR",
+    "full": "International Journal of Approximate Reasoning",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "JAIR",
+    "full": "Journal of Artificial Intelligence Research",
+    "publisher": "AAAI",
+    "category": "B"
+  },
+  {
+    "full": "Journal of Automated Reasoning",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "JSLHR",
+    "full": "Journal of Speech, Language, and Hearing Research",
+    "publisher": "American Speech- Language Hearing Association",
+    "category": "B"
+  },
+  {
+    "full": "Machine Learning",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "full": "Neural Computation",
+    "publisher": "MIT Press",
+    "category": "B"
+  },
+  {
+    "full": "Neural Networks",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "PR",
+    "full": "Pattern Recognition",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "TALLIP",
+    "full": "Transactions on Asian and Low- Resource Language Information Processing",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "full": "Applied Intelligence",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "AIM",
+    "full": "Artificial Intelligence in Medicine",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "full": "Artificial Life",
+    "publisher": "MIT Press",
+    "category": "C"
+  },
+  {
+    "full": "Computational Intelligence",
+    "publisher": "Wiley",
+    "category": "C"
+  },
+  {
+    "full": "Computer Speech and Language",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "full": "Connection Science",
+    "publisher": "Taylor & Francis",
+    "category": "C"
+  },
+  {
+    "abbr": "DSS",
+    "full": "Decision Support Systems",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "EAAI",
+    "full": "Engineering Applications of Artificial Intelligence",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "full": "Expert Systems",
+    "publisher": "Blackwell/Wiley",
+    "category": "C"
+  },
+  {
+    "abbr": "ESWA",
+    "full": "Expert Systems with Applications",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "full": "Fuzzy Sets and Systems",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "TG",
+    "full": "Transactions on Games",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "IET-CVI",
+    "full": "IET Computer Vision",
+    "publisher": "IET",
+    "category": "C"
+  },
+  {
+    "full": "IET Signal Processing",
+    "publisher": "IET",
+    "category": "C"
+  },
+  {
+    "abbr": "IVC",
+    "full": "Image and Vision Computing",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "IDA",
+    "full": "Intelligent Data Analysis",
+    "publisher": "IOS Press",
+    "category": "C"
+  },
+  {
+    "abbr": "IJCIA",
+    "full": "International Journal of Computational Intelligence and Applications",
+    "publisher": "World Scientific",
+    "category": "C"
+  },
+  {
+    "abbr": "IJIS",
+    "full": "International Journal of Intelligent Systems",
+    "publisher": "Wiley",
+    "category": "C"
+  },
+  {
+    "abbr": "IJNS",
+    "full": "International Journal of Neural Systems",
+    "publisher": "World Scientific",
+    "category": "C"
+  },
+  {
+    "abbr": "IJPRAI",
+    "full": "International Journal of Pattern Recognition and Artificial Intelligence",
+    "publisher": "World Scientific",
+    "category": "C"
+  },
+  {
+    "abbr": "IJUFKS",
+    "full": "International Journal of Uncertainty, Fuzziness and Knowledge-Based System",
+    "publisher": "World Scientific",
+    "category": "C"
+  },
+  {
+    "abbr": "IJDAR",
+    "full": "International Journal on Document Analysis and Recognition",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "JETAI",
+    "full": "Journal of Experimental and Theoretical Artificial Intelligence",
+    "publisher": "Taylor & Francis",
+    "category": "C"
+  },
+  {
+    "abbr": "KBS",
+    "full": "Knowledge-Based Systems",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "full": "Machine Translation",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "full": "Machine Vision and Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "full": "Natural Computing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "NLE",
+    "full": "Natural Language Engineering",
+    "publisher": "Cambridge University Press",
+    "category": "C"
+  },
+  {
+    "abbr": "NCA",
+    "full": "Neural Computing & Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "NPL",
+    "full": "Neural Processing Letters",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "full": "Neurocomputing",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "PAA",
+    "full": "Pattern Analysis and Applications",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "PRL",
+    "full": "Pattern Recognition Letters",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "full": "Soft Computing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "WI",
+    "full": "Web Intelligence",
+    "publisher": "IOS Press",
+    "category": "C"
+  },
+  {
+    "abbr": "AAAI",
+    "full": "AAAI Conference on Artificial Intelligence",
+    "publisher": "AAAI",
+    "category": "A"
+  },
+  {
+  "abbr": "ICLR",
+  "full": "International Conference on Learning Representations",
+  "publisher": "ICLR",
+  "category": ""
+  },
+  {
+    "abbr": "NIPS",
+    "full": "Conference on Neural Information Processing Systems",
+    "publisher": "MIT Press",
+    "category": "A"
+  },
+  {
+  "abbr": "NIPS",
+  "full": "NeurIPS",
+  "publisher": "MIT Press",
+  "category": "A"
+  },
+  {
+    "abbr": "ACL",
+    "full": "Meeting of the Association for Computational Linguistics",
+    "publisher": "ACL",
+    "category": "A"
+  },
+  {
+    "abbr": "CVPR",
+    "full": "Conference on Computer Vision and Pattern Recognition",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "ICCV",
+    "full": "International Conference on Computer Vision",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "ICML",
+    "full": "International Conference on Machine Learning",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "IJCAI",
+    "full": "International Joint Conference on Artificial Intelligence",
+    "publisher": "Morgan Kaufmann",
+    "category": "A"
+  },
+  {
+    "abbr": "COLT",
+    "full": "Conference on Computational Learning Theory",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "EMNLP",
+    "full": "Conference on Empirical Methods in Natural Language Processing",
+    "publisher": "ACL",
+    "category": "B"
+  },
+  {
+    "abbr": "ECAI",
+    "full": "European Conference on Artificial Intelligence",
+    "publisher": "IOS Press",
+    "category": "B"
+  },
+  {
+    "abbr": "ECCV",
+    "full": "European Conference on Computer Vision",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "ICRA",
+    "full": "International Conference on Robotics and Automation",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "ICAPS",
+    "full": "International Conference on Automated Planning and Scheduling",
+    "publisher": "AAAI",
+    "category": "B"
+  },
+  {
+    "abbr": "ICCBR",
+    "full": "International Conference on Case-Based Reasoning and Development",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "COLING",
+    "full": "International Conference on Computational Linguistics",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "KR",
+    "full": "International Conference on Principles of Knowledge Representation and Reasoning",
+    "publisher": "Morgan Kaufmann",
+    "category": "B"
+  },
+  {
+    "abbr": "UAI",
+    "full": "International Conference on Uncertainty in Artificial Intelligence",
+    "publisher": "AUAI",
+    "category": "B"
+  },
+  {
+    "abbr": "AAMAS",
+    "full": "International Joint Conference on Autonomous Agents and Multi- agent Systems",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "PPSN",
+    "full": "Parallel Problem Solving from Nature",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "AISTATS",
+    "full": "Artificial Intelligence and Statistics",
+    "publisher": "JMLR",
+    "category": "C"
+  },
+  {
+    "abbr": "ACCV",
+    "full": "Asian Conference on Computer Vision",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ACML",
+    "full": "Asian Conference on Machine Learning",
+    "publisher": "JMLR",
+    "category": "C"
+  },
+  {
+    "abbr": "BMVC",
+    "full": "British Machine Vision Conference",
+    "publisher": "British Machine Vision Association",
+    "category": "C"
+  },
+  {
+    "abbr": "NLPCC",
+    "full": "CCF International Conference on Natural Language Processing and Chinese Computing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "CoNLL",
+    "full": "Conference on Computational Natural Language Learning",
+    "publisher": "Association for Computational Linguistics",
+    "category": "C"
+  },
+  {
+    "abbr": "GECCO",
+    "full": "Genetic and Evolutionary Computation Conference",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "ICTAI",
+    "full": "International Conference on Tools with Artificial Intelligence",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "IROS",
+    "full": "IEEE\\RSJ International Conference on Intelligent Robots and Systems",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ALT",
+    "full": "International Conference on Algorithmic Learning Theory",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ICANN",
+    "full": "International Conference on Artificial Neural Networks",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "FG",
+    "full": "International Conference on Automatic Face and Gesture Recognition",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICDAR",
+    "full": "International Conference on Document Analysis and Recognition",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ILP",
+    "full": "International Conference on Inductive Logic Programming",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "KSEM",
+    "full": "International conference on Knowledge Science, Engineering and Management",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ICONIP",
+    "full": "International Conference on Neural Information Processing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "ICPR",
+    "full": "International Conference on Pattern Recognition",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "ICB",
+    "full": "International Joint Conference on Biometrics",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "IJCNN",
+    "full": "International Joint Conference on Neural Networks",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "PRICAI",
+    "full": "Pacific Rim International Conference on Artificial Intelligence",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "NAACL",
+    "full": "Conference of the North American Chapter of the Association for Computational Linguistics",
+    "publisher": "NAACL",
+    "category": "C"
+  },
+  {
+    "abbr": "TOCHI",
+    "full": "Transactions on Computer-Human Interaction",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "IJHCS",
+    "full": "International Journal of Human Computer Studies",
+    "publisher": "Elsevier",
+    "category": "A"
+  },
+  {
+    "abbr": "CSCW",
+    "full": "Computer Supported Cooperative Work",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "HCI",
+    "full": "Human Computer Interaction",
+    "publisher": "Taylor & Francis",
+    "category": "B"
+  },
+  {
+    "full": "Transactions on Human-Machine Systems",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "IWC",
+    "full": "Interacting with Computers",
+    "publisher": "Oxford University Press",
+    "category": "B"
+  },
+  {
+    "abbr": "IJHCI",
+    "full": "International Journal of Human-Computer Interaction",
+    "publisher": "Taylor & Francis",
+    "category": "B"
+  },
+  {
+    "abbr": "UMUAI",
+    "full": "User Modeling and User-Adapted Interaction",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "BIT",
+    "full": "Behaviour & Information Technology",
+    "publisher": "Taylor & Francis",
+    "category": "C"
+  },
+  {
+    "abbr": "PUC",
+    "full": "Personal and Ubiquitous Computing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "PMC",
+    "full": "Pervasive and Mobile Computing",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "CSCW",
+    "full": "Conference on Computer Supported Cooperative Work and Social Computing",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "CHI",
+    "full": "Conference on Human Factors in Computing Systems",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "UbiComp",
+    "full": "International Conference on Ubiquitous Computing",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "GROUP",
+    "full": "Conference on Supporting Group Work",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "IUI",
+    "full": "International Conference on Intelligent User Interfaces",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "ITS",
+    "full": "International Conference on Interactive Tabletops and Surfaces",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "UIST",
+    "full": "Symposium on User Interface Software and Technology",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "ECSCW",
+    "full": "European Conference on Computer Supported Cooperative Work",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "PERCOM",
+    "full": "International Conference on Pervasive Computing and Communications",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "MobileHCI",
+    "full": "International Conference on Human Computer Interaction with Mobile Devices and Services",
+    "publisher": "ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "DIS",
+    "full": "Conference on Designing Interactive Systems",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "ICMI",
+    "full": "International Conference on Multimodal Interaction",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "ASSETS",
+    "full": "SIGACCESS Conference on Computers and Accessibility",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "GI",
+    "full": "Graphics Interface conference",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "UIC",
+    "full": "International Conference on Ubiquitous Intelligence and Computing",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "full": "World Haptics Conference",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "INTERACT",
+    "full": "IFIP TC13 Conference on Human-Computer Interaction",
+    "publisher": "IFIP",
+    "category": "C"
+  },
+  {
+    "abbr": "IDC",
+    "full": "Interaction Design and Children",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "CollaborateCom",
+    "full": "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "CSCWD",
+    "full": "International Conference on Computer Supported Cooperative Work in Design",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "CoopIS",
+    "full": "International Conference on Cooperative Information Systems",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "MobiQuitous",
+    "full": "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",
+    "publisher": "Springer",
+    "category": "C"
+  },
+  {
+    "abbr": "AVI",
+    "full": "International Working Conference on Advanced Visual Interfaces",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "JACM",
+    "full": "Journal of the ACM",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "Proc. IEEE",
+    "full": "Proceedings of the IEEE",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "full": "Bioinformatics",
+    "publisher": "Oxford University Press",
+    "category": "B"
+  },
+  {
+    "full": "Briefings in Bioinformatics",
+    "publisher": "Oxford University Press",
+    "category": "B"
+  },
+  {
+    "abbr": "Cognition",
+    "full": "Cognition\uff1aInternational Journal of Cognitive Science",
+    "publisher": "Elsevier",
+    "category": "B"
+  },
+  {
+    "abbr": "TASAE",
+    "full": "Transactions on Automation Science and Engineering",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TGARS",
+    "full": "Transactions on Geoscience and Remote Sensing",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TITS",
+    "full": "Transactions on Intelligent Transportation Systems",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TMI",
+    "full": "Transactions on Medical Imaging",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TR",
+    "full": "Transactions on Robotics",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "TCBB",
+    "full": "Transactions on Computational Biology and Bioinformatics",
+    "publisher": "IEEE/ACM",
+    "category": "B"
+  },
+  {
+    "abbr": "JCST",
+    "full": "Journal of Computer Science and Technology",
+    "publisher": "SCIENCE PRESS/Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "JAMIA",
+    "full": "Journal of the American Medical Informatics Association",
+    "publisher": "BMJ Journals",
+    "category": "B"
+  },
+  {
+    "full": "PLOS Computational Biology",
+    "publisher": "Public Library of Science",
+    "category": "B"
+  },
+  {
+    "full": "Science China Information Sciences",
+    "publisher": "Science in China Press/Springer",
+    "category": "B"
+  },
+  {
+    "full": "The Computer Journal",
+    "publisher": "Oxford University Press",
+    "category": "B"
+  },
+  {
+    "full": "World Wide Web Journal",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "full": "BMC Bioinformatics",
+    "publisher": "BioMed Central",
+    "category": "C"
+  },
+  {
+    "full": "Cybernetics and Systems",
+    "publisher": "Taylor & Francis",
+    "category": "C"
+  },
+  {
+    "abbr": "FCS",
+    "full": "Frontiers of Computer Science",
+    "publisher": "Higher Education Press",
+    "category": "C"
+  },
+  {
+    "full": "Geoscience and Remote Sensing Letters",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "JBHI",
+    "full": "Journal of Biomedical and Health Informatics",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "TBD",
+    "full": "Transactions on Big Data",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "full": "IET Intelligent Transport Systems",
+    "publisher": "IET",
+    "category": "C"
+  },
+  {
+    "abbr": "JBI",
+    "full": "Journal of Biomedical Informatics",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "full": "Medical Image Analysis",
+    "publisher": "Elsevier",
+    "category": "C"
+  },
+  {
+    "abbr": "WWW",
+    "full": "International WorldWide Web Conferences",
+    "publisher": "ACM",
+    "category": "A"
+  },
+  {
+    "abbr": "RTSS",
+    "full": "Real-Time Systems Symposium",
+    "publisher": "IEEE",
+    "category": "A"
+  },
+  {
+    "abbr": "CogSci",
+    "full": "Cognitive Science Society Annual Conference",
+    "publisher": "Psychology Press",
+    "category": "B"
+  },
+  {
+    "abbr": "BIBM",
+    "full": "International Conference on Bioinformatics and Biomedicine",
+    "publisher": "IEEE",
+    "category": "B"
+  },
+  {
+    "abbr": "EMSOFT",
+    "full": "International Conference on Embedded Software",
+    "publisher": "ACM/IEEE/IFIP",
+    "category": "B"
+  },
+  {
+    "abbr": "ISMB",
+    "full": "International conference on Intelligent Systems for Molecular Biology",
+    "publisher": "Oxford Journals",
+    "category": "B"
+  },
+  {
+    "abbr": "RECOMB",
+    "full": "International Conference on Research in Computational Molecular Biology",
+    "publisher": "Springer",
+    "category": "B"
+  },
+  {
+    "abbr": "AMIA",
+    "full": "American Medical Informatics Association Annual Symposium",
+    "publisher": "AMIA",
+    "category": "C"
+  },
+  {
+    "abbr": "APBC",
+    "full": "Asia Pacific Bioinformatics Conference",
+    "publisher": "BioMed Central",
+    "category": "C"
+  },
+  {
+    "full": "International Conference on Big Data",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "full": "International Conference on Cloud Computing",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "SMC",
+    "full": "International Conference on Systems, Man, and Cybernetics",
+    "publisher": "IEEE",
+    "category": "C"
+  },
+  {
+    "abbr": "COSIT",
+    "full": "International Conference on Spatial Information Theory",
+    "publisher": "ACM",
+    "category": "C"
+  },
+  {
+    "abbr": "ISBRA",
+    "full": "International Symposium on Bioinformatics Research and Applications",
+    "publisher": "Springer",
+    "category": "C"
+  }
+]

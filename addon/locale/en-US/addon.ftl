@@ -1,6 +1,7 @@
 startup-begin = Addon is loading
 startup-finish = Addon is ready
-menuitem-label = Addon Template: Helper Examples
+menuitem-label = Update Abbr.
+column-label = Conf/Journal
 menupopup-label = Addon Template: Menupopup
 menuitem-submenulabel = Addon Template
 menuitem-filemenulabel = Addon Template: File Menuitem

@@ -19,19 +19,20 @@ async function onStartup() {
 
   initLocale();
 
-  BasicExampleFactory.registerPrefs();
+  // BasicExampleFactory.registerPrefs();
+  await BasicExampleFactory.loadDefaultMapping();
 
-  BasicExampleFactory.registerNotifier();
+  // BasicExampleFactory.registerNotifier();
 
-  KeyExampleFactory.registerShortcuts();
+  // KeyExampleFactory.registerShortcuts();
 
   await UIExampleFactory.registerExtraColumn();
 
-  await UIExampleFactory.registerExtraColumnWithCustomCell();
+  // await UIExampleFactory.registerExtraColumnWithCustomCell();
 
-  UIExampleFactory.registerItemPaneSection();
+  // UIExampleFactory.registerItemPaneSection();
 
-  UIExampleFactory.registerReaderItemPaneSection();
+  // UIExampleFactory.registerReaderItemPaneSection();
 
   await Promise.all(
     Zotero.getMainWindows().map((win) => onMainWindowLoad(win)),
@@ -61,20 +62,21 @@ async function onMainWindowLoad(win: Window): Promise<void> {
     progress: 30,
     text: `[30%] ${getString("startup-begin")}`,
   });
-
-  UIExampleFactory.registerStyleSheet(win);
+  // UIExampleFactory.registerStyleSheet(win);
 
   UIExampleFactory.registerRightClickMenuItem();
 
-  UIExampleFactory.registerRightClickMenuPopup(win);
+  // UIExampleFactory.registerRightClickMenuPopup(win);
 
-  UIExampleFactory.registerWindowMenuWithSeparator();
+  // UIExampleFactory.registerWindowMenuWithSeparator();
 
-  PromptExampleFactory.registerNormalCommandExample();
+  UIExampleFactory.registerItemPaneSection(win);
 
-  PromptExampleFactory.registerAnonymousCommandExample(win);
+  // PromptExampleFactory.registerNormalCommandExample();
 
-  PromptExampleFactory.registerConditionalCommandExample();
+  // PromptExampleFactory.registerAnonymousCommandExample(win);
+
+  // PromptExampleFactory.registerConditionalCommandExample();
 
   await Zotero.Promise.delay(1000);
 
@@ -84,7 +86,7 @@ async function onMainWindowLoad(win: Window): Promise<void> {
   });
   popupWin.startCloseTimer(5000);
 
-  addon.hooks.onDialogEvents("dialogExample");
+  // addon.hooks.onDialogEvents("dialogExample");
 }
 
 async function onMainWindowUnload(win: Window): Promise<void> {

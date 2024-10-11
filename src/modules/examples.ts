@@ -1,5 +1,6 @@
 import { config } from "../../package.json";
 import { getLocaleID, getString } from "../utils/locale";
+import { loadDefaultMapping, matchAbbreviation, matchFullName, Publication } from "./abbreviation";
 
 function example(
   target: any,
@@ -18,6 +19,62 @@ function example(
   };
   return descriptor;
 }
+
+function getPublicationValue(item: Zotero.Item) {
+  const pub = ztoolkit.ExtraField.getExtraField(item, "publication");
+  const pub2 = pub ?? "";
+  return String(pub2);
+}
+
+function setPublicationValue(item: Zotero.Item, value: String) {
+  if (!!value) {
+    ztoolkit.ExtraField.setExtraField(item, "publication", String(value));
+  }
+}
+
+
+function getPublicationAbbreviation(item:Zotero.Item){
+  const keys = [];
+  if (item.itemType == "conferencePaper"){
+    keys.push(item.getField("proceedingsTitle"));
+    keys.push(item.getField("conferenceName"));
+  }
+  else if (item.itemType == "journalArticle"){
+    keys.push(item.getField("publicationTitle"));
+    keys.push(item.getField("journalAbbreviation"));
+  }
+  keys.push(item.getField("DOI"))
+
+  const candidates: Publication[] = [];
+  const mapping = addon.data.mapping ?? [];
+
+  // match by abbreviations
+  keys.forEach(k => {
+    if (!!k) {
+      matchAbbreviation(k, mapping).forEach((e) => candidates.push(e));
+    }
+  })
+  candidates.sort((a, b) => b.abbr.length - a.abbr.length)
+  ztoolkit.log(candidates)
+  if (candidates.length > 0) {
+    return String(candidates[0].abbr)
+  }
+
+  // matched by full name
+  keys.forEach(k => {
+    if (!!k) {
+      matchFullName(k, mapping).forEach((e) => candidates.push(e));
+    }
+  })
+  candidates.sort((a, b) => b.full.length - a.full.length)
+  if (candidates.length > 0) {
+    return String(candidates[0].abbr)
+  }
+
+  return ""
+}
+
+
 
 export class BasicExampleFactory {
   @example
@@ -50,6 +107,12 @@ export class BasicExampleFactory {
       },
     });
   }
+
+  static async loadDefaultMapping(){
+    addon.data.mapping = await loadDefaultMapping();
+    ztoolkit.log("load default mapping")
+  }
+
 
   @example
   static exampleNotifierCallback() {
@@ -138,13 +201,30 @@ export class UIExampleFactory {
 
   @example
   static registerRightClickMenuItem() {
-    const menuIcon = `chrome://${config.addonRef}/content/icons/favicon@0.5x.png`;
+    ztoolkit.Menu.register("item", {
+      tag: "menuseparator"
+    })
+
+    const menuIcon = `chrome://zotero/skin/16/universal/book.svg`;
+
     // item menuitem with icon
     ztoolkit.Menu.register("item", {
       tag: "menuitem",
-      id: "zotero-itemmenu-addontemplate-test",
+      id: "zotero-itemmenu-updatePublication-test",
       label: getString("menuitem-label"),
-      commandListener: (ev) => addon.hooks.onDialogEvents("dialogExample"),
+
+      commandListener: () => {
+        const selectedItems = ztoolkit.getGlobal("ZoteroPane").getSelectedItems();
+        selectedItems.forEach(item => {
+          let new_value: string;
+          if (item.itemType == "journalArticle" && !!item.getField("journalAbbreviation")){
+            new_value = item.getField("journalAbbreviation");
+          } else {
+            new_value = getPublicationAbbreviation(item);
+          }
+          setPublicationValue(item, new_value);
+        })
+      },
       icon: menuIcon,
     });
   }
@@ -186,15 +266,13 @@ export class UIExampleFactory {
 
   @example
   static async registerExtraColumn() {
-    const field = "test1";
     await Zotero.ItemTreeManager.registerColumns({
       pluginID: config.addonID,
-      dataKey: field,
-      label: "text column",
+      dataKey: "publication",
+      label: getString("column-label"),
       dataProvider: (item: Zotero.Item, dataKey: string) => {
-        return field + String(item.id);
+        return getPublicationValue(item);
       },
-      iconPath: "chrome://zotero/skin/cross.png",
     });
   }
 
@@ -223,7 +301,7 @@ export class UIExampleFactory {
   }
 
   @example
-  static registerItemPaneSection() {
+  static registerItemPaneSection(win: Window) {
     Zotero.ItemPaneManager.registerSection({
       paneID: "example",
       pluginID: config.addonID,
@@ -235,13 +313,47 @@ export class UIExampleFactory {
         l10nID: getLocaleID("item-section-example1-sidenav-tooltip"),
         icon: "chrome://zotero/skin/20/universal/save.svg",
       },
-      onRender: ({ body, item, editable, tabType }) => {
-        body.textContent = JSON.stringify({
-          id: item?.id,
-          editable,
-          tabType,
-        });
+      onRender: ({ body, item }) => {
+        const ele: HTMLDivElement = ztoolkit.UI.createElement(
+          win.document,
+          "div",
+          {
+            id: "publication-panel",
+            skipIfExists: true,
+            listeners: [
+              {
+                type: "keyup",
+                listener: (event: Event) => {
+                  const keyEvent = event as KeyboardEvent;
+                  if (keyEvent.key === "Enter") {
+                    const input_ele = win.document.getElementById(
+                      `publication-panel-input-${item.id}`,
+                    ) as HTMLInputElement;
+                    const new_value = input_ele.value;
+                    setPublicationValue(item, new_value);
+                  }
+                },
+              },
+            ],
+            children: [
+              {
+                tag: "input",
+                properties: {
+                  type: "text",
+                  id: `publication-panel-input-${item.id}`,
+                  value: getPublicationValue(item),
+                },
+              },
+            ],
+          },
+        );
+        body.appendChild(ele);
       },
+      onItemChange: ({body})=>{
+        while (body.firstChild) {
+          body.removeChild(body.firstChild);
+        }
+      }
     });
   }
 
