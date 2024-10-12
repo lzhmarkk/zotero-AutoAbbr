@@ -273,6 +273,38 @@ export class UIExampleFactory {
       dataProvider: (item: Zotero.Item, dataKey: string) => {
         return getPublicationValue(item);
       },
+      renderCell(index, data, column) {
+        const document = Zotero.getMainWindow().document;
+
+        const span = document.createElementNS(
+          "http://www.w3.org/1999/xhtml",
+          "span",
+        );
+        span.className = `cell ${column.className}`;
+        span.innerText = data;
+
+        // create tags
+        const mapping: Publication[] = addon.data.mapping ?? [];
+        const matched = mapping.filter(e => e.abbr == data).pop();
+        const tag = matched?.category;
+        const colors: {[key:string]: string} = {
+          "A": "rgb(231, 98, 84)",
+          "B": "rgb(255, 208, 111)",
+          "C": "rgb(170,224,200)",
+        }
+
+        if (!!tag) {
+          const tagElement = document.createElement("div");
+          tagElement.style.backgroundColor = colors[tag];
+          tagElement.style.borderRadius = "5px";
+          tagElement.style.border = "none";
+          tagElement.style.marginLeft = "5px";
+          tagElement.style.display = "inline-block";
+          tagElement.innerText = `CCF-${tag}`;
+          span.appendChild(tagElement)
+        }
+        return span;
+      },
     });
   }
 
