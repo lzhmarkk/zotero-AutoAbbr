@@ -22,14 +22,16 @@ function example(
 
 function getPublicationValue(item: Zotero.Item) {
   const pub = ztoolkit.ExtraField.getExtraField(item, "publication");
-  const pub2 = pub ?? "";
-  return String(pub2);
+  if (!!pub){
+    return String(pub);
+  }
+  else {
+    return ''
+  }
 }
 
 function setPublicationValue(item: Zotero.Item, value: String) {
-  if (!!value) {
-    ztoolkit.ExtraField.setExtraField(item, "publication", String(value));
-  }
+  ztoolkit.ExtraField.setExtraField(item, "publication", String(value));
 }
 
 
@@ -270,6 +272,7 @@ export class UIExampleFactory {
       pluginID: config.addonID,
       dataKey: "publication",
       label: getString("column-label"),
+      width: "100",
       dataProvider: (item: Zotero.Item, dataKey: string) => {
         return getPublicationValue(item);
       },
@@ -354,16 +357,13 @@ export class UIExampleFactory {
             skipIfExists: true,
             listeners: [
               {
-                type: "keyup",
+                type: "change",
                 listener: (event: Event) => {
-                  const keyEvent = event as KeyboardEvent;
-                  if (keyEvent.key === "Enter") {
-                    const input_ele = win.document.getElementById(
-                      `publication-panel-input-${item.id}`,
-                    ) as HTMLInputElement;
-                    const new_value = input_ele.value;
-                    setPublicationValue(item, new_value);
-                  }
+                  const input_ele = win.document.getElementById(
+                    `publication-panel-input-${item.id}`,
+                  ) as HTMLInputElement;
+                  const new_value = input_ele.value;
+                  setPublicationValue(item, new_value);
                 },
               },
             ],
