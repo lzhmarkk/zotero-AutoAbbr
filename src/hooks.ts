@@ -22,6 +22,8 @@ async function onStartup() {
   // BasicExampleFactory.registerPrefs();
   await BasicExampleFactory.loadDefaultMapping();
 
+  await BasicExampleFactory.loadRules();
+
   // BasicExampleFactory.registerNotifier();
 
   // KeyExampleFactory.registerShortcuts();

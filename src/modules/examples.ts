@@ -1,6 +1,7 @@
 import { config } from "../../package.json";
 import { getLocaleID, getString } from "../utils/locale";
-import { loadDefaultMapping, matchAbbreviation, matchFullName, Publication } from "./abbreviation";
+import { matchAbbreviation, matchFullName, Publication } from "./abbreviation";
+import { RuleManager } from "./rules";
 
 function example(
   target: any,
@@ -48,7 +49,7 @@ function getPublicationAbbreviation(item:Zotero.Item){
   keys.push(item.getField("DOI"))
 
   const candidates: Publication[] = [];
-  const mapping = addon.data.mapping ?? [];
+  const mapping = addon.data.ruleManager!.rules;
 
   // match by abbreviations
   keys.forEach(k => {
@@ -75,7 +76,6 @@ function getPublicationAbbreviation(item:Zotero.Item){
 
   return ""
 }
-
 
 
 export class BasicExampleFactory {
@@ -110,11 +110,11 @@ export class BasicExampleFactory {
     });
   }
 
-  static async loadDefaultMapping(){
-    addon.data.mapping = await loadDefaultMapping();
-    ztoolkit.log("load default mapping")
+  static async loadRules() {
+    const manager = new RuleManager();
+    await manager.load();
+    addon.data.ruleManager = manager;
   }
-
 
   @example
   static exampleNotifierCallback() {
@@ -287,8 +287,11 @@ export class UIExampleFactory {
         span.innerText = data;
 
         // create tags
-        const mapping: Publication[] = addon.data.mapping ?? [];
-        const matched = mapping.filter(e => e.abbr == data).pop();
+        // todo support mode categories
+        // todo support customized color
+        const rules: Publication[] = addon.data.ruleManager!.rules;
+        // todo assign id for rules to avoid abbr-duplication
+        const matched = rules.filter(e => e.abbr == data).pop();
         const tag = matched?.category;
         const colors: {[key:string]: string} = {
           "A": "rgb(231, 98, 84)",

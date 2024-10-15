@@ -1,5 +1,3 @@
-import { config } from "../../package.json";
-
 export interface Publication {
   abbr: string;
   full: string;
@@ -7,14 +5,6 @@ export interface Publication {
   category: string;
 }
 
-export async function loadDefaultMapping() {
-  const default_mapping_file = `chrome://${config.addonRef}/content/ccf.json`;
-  const response = await fetch(default_mapping_file);
-  const mapping: Publication[] = await response
-    .text()
-    .then((txt) => JSON.parse(txt));
-  return mapping;
-}
 
 function matchKeyWord(S: string, keyword: string, ignore_case: boolean): boolean {
   if (ignore_case) {
