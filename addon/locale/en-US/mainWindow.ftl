@@ -1,10 +1,10 @@
 item-section-example1-head-text =
     .label = Abbreviation of Conference/Journal
 item-section-example1-sidenav-tooltip =
-    .tooltiptext = This is Plugin Template section (item info)
+    .tooltiptext = Manually edit abbreviation
 item-section-example2-head-text =
     .label = Plugin Template: Reader [{$status}]
 item-section-example2-sidenav-tooltip =
-    .tooltiptext = This is Plugin Template section (reader)
+    .tooltiptext = Manually edit abbreviation
 item-section-example2-button-tooltip =
     .tooltiptext = Unregister this section

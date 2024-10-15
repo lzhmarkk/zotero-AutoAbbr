@@ -138,7 +138,7 @@ export class BasicExampleFactory {
       pluginID: config.addonID,
       src: rootURI + "chrome/content/preferences.xhtml",
       label: getString("prefs-title"),
-      image: `chrome://${config.addonRef}/content/icons/favicon.png`,
+      image: `chrome://zotero/skin/16/universal/book.svg`,
     });
   }
 }
@@ -349,7 +349,7 @@ export class UIExampleFactory {
       },
       sidenav: {
         l10nID: getLocaleID("item-section-example1-sidenav-tooltip"),
-        icon: "chrome://zotero/skin/20/universal/save.svg",
+        icon: "chrome://zotero/skin/16/universal/book.svg",
       },
       onRender: ({ body, item }) => {
         const ele: HTMLDivElement = ztoolkit.UI.createElement(
