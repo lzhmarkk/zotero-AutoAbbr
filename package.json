@@ -1,6 +1,6 @@
 {
   "name": "zotero-autoabbr",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Zotero Automatic Conference/Journal Abbreviation",
   "config": {
     "addonName": "Zotero AutoAbbr",
