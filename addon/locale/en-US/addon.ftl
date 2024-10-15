@@ -10,3 +10,5 @@ prefs-table-title = Title
 prefs-table-detail = Detail
 tabpanel-lib-tab-label = Lib Tab
 tabpanel-reader-tab-label = Reader Tab
+rule-update-finish = Rules have been updated
+rule-reset-finish = Rules have been reset

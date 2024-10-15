@@ -19,8 +19,7 @@ async function onStartup() {
 
   initLocale();
 
-  // BasicExampleFactory.registerPrefs();
-  await BasicExampleFactory.loadDefaultMapping();
+  BasicExampleFactory.registerPrefs();
 
   await BasicExampleFactory.loadRules();
 

@@ -10,3 +10,5 @@ prefs-table-title = 标题
 prefs-table-detail = 详情
 tabpanel-lib-tab-label = 库标签
 tabpanel-reader-tab-label = 阅读器标签
+rule-update-finish = 规则已更新
+rule-reset-finish = 规则已重置
